@@ -4,6 +4,9 @@ import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
   base: "/knowledge-graph-garden/",
+  build: {
+    outDir: "docs",
+  },
   plugins: [vue()],
   resolve: {
     alias: {
