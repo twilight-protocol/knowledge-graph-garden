@@ -2,8 +2,8 @@ import { defineConfig } from "vite";
 import path from "path";
 import vue from "@vitejs/plugin-vue";
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: "/knowledge-graph-garden/",
   plugins: [vue()],
   resolve: {
     alias: {
